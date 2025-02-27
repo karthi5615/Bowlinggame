@@ -18,7 +18,7 @@ function sumOfBallsInFrame(rolls, rollIndex) {
     return rolls[rollIndex] + rolls[rollIndex + 1];
 }
 
-
+//export
 module.exports = {
     isStrike,
     isSpare,
